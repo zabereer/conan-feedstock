@@ -14,14 +14,16 @@ Summary: Conan C/C++ package manager
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/conan-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/conan-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/conan-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/conan-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/conan-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/conan-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/conan-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/conan-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/conan-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/conan-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/conan-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/conan-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/conan/badges/version.svg)](https://anaconda.org/conda-forge/conan)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/conan/badges/downloads.svg)](https://anaconda.org/conda-forge/conan)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-conan-green.svg)](https://anaconda.org/conda-forge/conan) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/conan.svg)](https://anaconda.org/conda-forge/conan) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/conan.svg)](https://anaconda.org/conda-forge/conan) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/conan.svg)](https://anaconda.org/conda-forge/conan) |
 
 Installing conan
 ================
