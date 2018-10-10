@@ -1,6 +1,6 @@
 {% set name = "conan" %}
-{% set version = "1.7.4" %}
-{% set sha256 = "852cd73ec9d836bbbf7055f4821a4fdedb5fddb6953ff9c641ccd31a94ca0327" %}
+{% set version = "1.8.0" %}
+{% set sha256 = "1f6eb0eca174f0c4a8ff165f114a8bd713258ae3474019610b2c916e9ec3674a" %}
 
 package:
   name: {{ name|lower }}
@@ -41,6 +41,7 @@ requirements:
     - bottle >=0.12.8,<0.13
     - pluginbase >=0.5,<1.0
     - deprecation >=2.0,<2.1
+    - tqdm ==4.20.0
 
 test:
   imports:
