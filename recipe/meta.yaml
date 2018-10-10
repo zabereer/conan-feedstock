@@ -41,6 +41,7 @@ requirements:
     - bottle >=0.12.8,<0.13
     - pluginbase >=0.5,<1.0
     - deprecation >=2.0,<2.1
+    - tqdm ==4.20.0
 
 test:
   imports:
