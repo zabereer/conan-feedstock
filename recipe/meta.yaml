@@ -23,7 +23,7 @@ build:
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
     - pyjwt >=1.4.0,<2.0.0
