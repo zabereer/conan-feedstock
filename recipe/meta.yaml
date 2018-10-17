@@ -12,12 +12,13 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
+  noarch: python
   entry_points:
     - conan=conans.conan:run
     - conan_server=conans.conan_server:run
     - conan_build_info=conans.build_info.command:run
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
   build:
