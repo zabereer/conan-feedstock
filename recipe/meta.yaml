@@ -12,17 +12,18 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
+  noarch: python
   entry_points:
     - conan=conans.conan:run
     - conan_server=conans.conan_server:run
     - conan_build_info=conans.build_info.command:run
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
     - pyjwt >=1.4.0,<2.0.0
@@ -33,7 +34,7 @@ requirements:
     - fasteners >=0.14.1
     - six >=1.10.0
     - python-node-semver ==0.2.0
-    - distro >=1.0.2,<1.2.0  # [linux]
+    - distro >=1.0.2,<1.2.0
     - pylint >=1.8.1,<1.9.0
     - future ==0.16.0
     - pygments >=2.0,<3.0

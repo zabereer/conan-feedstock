@@ -14,9 +14,8 @@ Summary: Conan C/C++ package manager
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/conan-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/conan-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/conan-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/conan-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/conan-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/conan-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/conan-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/conan-feedstock)
 
 Current release info
 ====================
