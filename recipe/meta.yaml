@@ -68,7 +68,6 @@ test:
     - conans.server.service
     - conans.server.store
     - conans.test
-    - conans.test.build_helpers
     - conans.test.command
     - conans.test.conan_api
     - conans.test.functional
