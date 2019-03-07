@@ -1,6 +1,6 @@
 {% set name = "conan" %}
-{% set version = "1.12.3" %}
-{% set sha256 = "6f94be6d9823b909768be9931214b66fe70ade31d944e516d1f7aa5356f2ceb2" %}
+{% set version = "1.13.0" %}
+{% set sha256 = "67b170e35644a4f874f32a3a5979fbb76f37a8d9f2e38d37eb2cf65caf6f071e" %}
 
 package:
   name: {{ name|lower }}
@@ -28,21 +28,20 @@ requirements:
     - python
     - pyjwt >=1.4.0,<2.0.0
     - requests >=2.7.0,<3.0.0
-    - colorama >=0.3.3,<0.4.0
-    - pyyaml >=3.11,<3.13.0
+    - colorama >=0.3.3,<0.5.0
+    - pyyaml >=3.11,<3.14.0
     - python-patch ==1.16
     - fasteners >=0.14.1
     - six >=1.10.0
-    - python-node-semver ==0.2.0
+    - python-node-semver ==0.6.1
     - distro >=1.0.2,<1.2.0
-    - pylint >=1.8.1,<1.9.0
+    - pylint >=1.9.3,!=2.3.0
     - future ==0.16.0
     - pygments >=2.0,<3.0
-    - astroid >=1.6,<1.7
-    - bottle >=0.12.8,<0.13
-    - pluginbase >=0.5,<1.0
+    - astroid >=1.6.5
     - deprecation >=2.0,<2.1
-    - tqdm ==4.20.0
+    - tqdm >=4.28.1,<5
+    - jinja2 >=2.3,<3
 
 test:
   imports:
@@ -63,8 +62,6 @@ test:
     - conans.server.crypto
     - conans.server.crypto.jwt
     - conans.server.rest
-    - conans.server.rest.bottle_plugins
-    - conans.server.rest.controllers
     - conans.server.service
     - conans.server.store
     - conans.util
