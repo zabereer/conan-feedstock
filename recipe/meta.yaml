@@ -62,8 +62,6 @@ test:
     - conans.server.crypto
     - conans.server.crypto.jwt
     - conans.server.rest
-    - conans.server.rest.bottle_plugins
-    - conans.server.rest.controllers
     - conans.server.service
     - conans.server.store
     - conans.util
