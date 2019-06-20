@@ -1,6 +1,6 @@
 {% set name = "conan" %}
-{% set version = "1.16.0" %}
-{% set sha256 = "da917ed47ef1e327dd58105160ddeadced51b5404aff0a49e1f195857d498256" %}
+{% set version = "1.16.1" %}
+{% set sha256 = "6ef76833b10db2af75fe3b3dc227970a54de2b83c7dd18d0ef15b9f62f9f5d20" %}
 
 package:
   name: {{ name|lower }}
@@ -76,7 +76,7 @@ about:
   home: https://conan.io
   license: MIT
   license_family: MIT
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE.md'
+  license_file: LICENSE.md
   summary: Conan C/C++ package manager
   doc_url: http://docs.conan.io/en/latest/
   dev_url: https://github.com/conan-io/conan
