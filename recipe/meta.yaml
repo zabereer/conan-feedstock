@@ -1,6 +1,6 @@
 {% set name = "conan" %}
-{% set version = "1.19.3" %}
-{% set sha256 = "976820376eb62e787f73594589fc5bcf4147dd8c72f8c28ec3904ecb9a2628fc" %}
+{% set version = "1.19.4" %}
+{% set sha256 = "d8df26cfb2df5874393ca66d1368bc3ef4aea5d1da99c275fd207c48364b552c" %}
 
 package:
   name: {{ name|lower }}
@@ -33,7 +33,7 @@ requirements:
     - pyyaml >=3.11,<6.0
     - python-patch ==1.16
     - fasteners >=0.14.1
-    - six >=1.10.0
+    - six >=1.10.0,<1.13
     - python-node-semver ==0.6.1
     - distro >=1.0.2,<1.2.0
     - pylint >=2.0,!=2.3.0
