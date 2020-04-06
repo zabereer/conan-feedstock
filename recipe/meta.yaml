@@ -1,6 +1,6 @@
 {% set name = "conan" %}
-{% set version = "1.23.0" %}
-{% set sha256 = "0f1ca439d6e624dfaad2cfeab5b714042d8369250005e92bbbb2fbf6f7ab561a" %}
+{% set version = "1.24.0" %}
+{% set sha256 = "1ef4f10703172d6f950db4c05931399e80086af36614ee1897b12a7a8d23705a" %}
 
 package:
   name: {{ name|lower }}
@@ -31,7 +31,7 @@ requirements:
     - urllib3 !=1.25.4,!=1.25.5
     - colorama >=0.3.3,<0.5.0
     - pyyaml >=3.11,<6.0
-    - patch-ng ==1.17.2
+    - patch-ng >=1.17.4, <1.18
     - fasteners >=0.14.1
     - six >=1.10.0,<=1.14.0
     - python-node-semver ==0.6.1
