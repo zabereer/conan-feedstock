@@ -5,7 +5,7 @@ Home: https://conan.io
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Conan C/C++ package manager
 
