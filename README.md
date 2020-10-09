@@ -5,11 +5,13 @@ Home: https://conan.io
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conan-feedstock/blob/master/LICENSE.txt)
 
 Summary: Conan C/C++ package manager
 
+Development: https://github.com/conan-io/conan
 
+Documentation: http://docs.conan.io/en/latest/
 
 Current build status
 ====================
