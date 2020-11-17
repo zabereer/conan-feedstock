@@ -1,6 +1,6 @@
 {% set name = "conan" %}
-{% set version = "1.31.2" %}
-{% set sha256 = "eac7c04dbd5514d66d0ae4099469894c561c34d6f56de854187518ff68c6cdfa" %}
+{% set version = "1.31.3" %}
+{% set sha256 = "86bb7a771117b3b7718774602eace4233f7257683c4edd119efb89e9797a3e61" %}
 
 package:
   name: {{ name|lower }}
@@ -21,7 +21,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
