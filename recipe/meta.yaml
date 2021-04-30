@@ -82,6 +82,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - windelbouwman
     - abloemert
-    - memsharded
