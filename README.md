@@ -120,5 +120,3 @@ Feedstock Maintainers
 =====================
 
 * [@abloemert](https://github.com/abloemert/)
-* [@memsharded](https://github.com/memsharded/)
-
